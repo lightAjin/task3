@@ -1,0 +1,129 @@
+
+body {
+  background-color: #ADD8E6; /* Light blue background color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #dadfe1; /* Same as body color */
+  padding: 10px;
+}
+
+#menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu li {
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+#menu li:hover {
+  background-color: #87CEEB; /* Light sky blue on hover */
+}
+
+#menu li i {
+  margin-right: 5px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+#content {
+  margin-top: 20px;
+}
+
+#updateContentButton {
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+}
+
+#updateContentButton:hover {
+  background-color: #007B9E;
+}
+
+.left-icon {
+  margin-right: auto;
+  padding-left: 10px;
+  color: #74C0FC; /* Icon color */
+  font-size: 24px; /* Adjust icon size if necessary */
+}
